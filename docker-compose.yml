@@ -37,14 +37,14 @@ services:
     build: ./Frontend
     container_name: ajay_bonus_frontend
     ports:
-      - "8076:80"
+      - "8162:80"
     restart: always
 
   hr_page:
     build: ./Hr_page
     container_name: ajay_bonus_hr_page
     ports:
-      - "8077:80"
+      - "8163:80"
     restart: always
 
 volumes:
