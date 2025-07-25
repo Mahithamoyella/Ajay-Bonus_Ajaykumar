@@ -558,7 +558,7 @@
                 params.append('end_year', endDate.getFullYear());
             }
 
-            const response = await fetch(`http://44.203.250.66:3063/api/bonus/history?${params.toString()}`);
+            const response = await fetch(`http://3.95.135.55:3063/api/bonus/history?${params.toString()}`);
             
             if (!response.ok) {
                 const errorData = await response.json();
